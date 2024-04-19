@@ -1,4 +1,5 @@
 import PaginationControls from "@/components/PaginationControls";
+import RecordsTable from "@/components/RecordsTable";
 import { CiFilter } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
 
@@ -27,6 +28,7 @@ export default function Home() {
       <div className="bottom-1 absolute lg:left-72">
         <PaginationControls />
       </div>
+      <RecordsTable />
     </div>
   );
 }
