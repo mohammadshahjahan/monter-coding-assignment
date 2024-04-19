@@ -9,7 +9,7 @@ const Dropdown = () => {
   const numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const [down, setDown] = useState<boolean>(true);
   return (
-    <div className=" ">
+    
       <div className="flex space-x-3 border p-1 justify-center items-center">
         <div>{num}</div>
         {down ? (
@@ -33,7 +33,7 @@ const Dropdown = () => {
           ))}
         </div>
       </div>
-    </div>
+    
   );
 };
 
